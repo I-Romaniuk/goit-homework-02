@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: var(--WHITE, #fff);
+  background: #fff;
   color: var(--NAVY-BLUE, #2e2f42);
 }
 .header {
@@ -8,6 +8,7 @@ body {
 .header-navigation {
 }
 .header-logo {
+  color: var(--NAVY-BLUE, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
@@ -20,7 +21,7 @@ body {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
@@ -32,12 +33,18 @@ a {
 .header-menu-item {
 }
 .header-menu-link {
+  color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--OCEAN, #4d5ae5);
+}
 .address {
+  font-style: normal;
 }
 .address-list {
 }
@@ -49,6 +56,10 @@ a {
   font-weight: 400;
   line-height: 1.5px;
   letter-spacing: 0.02em;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--OCEAN, #4d5ae5);
 }
 
 .hero {
@@ -63,9 +74,19 @@ a {
   letter-spacing: 0.02em;
 }
 .hero-btn {
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--WHITE, #fff);
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--OCEAN, #404bbf);
 }
 
 .advantages {
@@ -84,7 +105,7 @@ a {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .team {
@@ -101,11 +122,7 @@ a {
 .team-list {
 }
 .team-item {
-  border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-image {
 }
