@@ -10,7 +10,6 @@ body {
 .header-logo {
   font-family: "Raleway", sans-serif;
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -96,6 +95,7 @@ a {
 .advantages-item {
 }
 .advantages-subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -127,6 +127,7 @@ a {
 .team-image {
 }
 .team-subtitle {
+  color: #2e2f42;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -144,6 +145,7 @@ a {
 .portfolio {
 }
 .portfolio-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -158,8 +160,7 @@ a {
   background: var(--WHITE, #fff);
 }
 .portfolio-subtitle {
-  color: var(--NAVY-BLUE, #2e2f42);
-
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -180,10 +181,8 @@ a {
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  color: var(--IRIS, #4d5ae5);  
   font-size: 18px;
-
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
