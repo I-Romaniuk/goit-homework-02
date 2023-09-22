@@ -1,23 +1,24 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: #434455;
 }
 .header {
 }
 .header-navigation {
 }
 .header-logo {
-  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: "Raleway", sans-serif;
+  color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .header-logo-color {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--NAVY-BLUE, #2e2f42);
 }
 
 ul {
@@ -41,7 +42,7 @@ a {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: var(--OCEAN, #4d5ae5);
+  color: var(--OCEAN, #404bbf);
 }
 .address {
   font-style: normal;
@@ -54,12 +55,12 @@ a {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .address-link:hover,
 .address-link:focus {
-  color: var(--OCEAN, #4d5ae5);
+  color: var(--OCEAN, #404bbf);
 }
 
 .hero {
@@ -76,8 +77,7 @@ a {
 .hero-btn {
   background: var(--IRIS, #4d5ae5);
   color: var(--WHITE, #fff);
-
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -130,7 +130,7 @@ a {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .team-text {
@@ -179,20 +179,21 @@ a {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .footer-logo {
-  color: var(--CLOUD, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+  color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
 
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-logo-color {
-  color: var(--IRIS, #4d5ae5);
+  color: #f4f4fd;
 }
 .footer-text {
-  color: var(--CLOUD, #f4f4fd);
+  color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
