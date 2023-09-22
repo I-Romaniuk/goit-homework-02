@@ -110,6 +110,7 @@ a {
 }
 .team {
   background: var(--CLOUD, #f4f4fd);
+  color: #2e2f42;
 }
 .team-titl {
   color: #2e2f42;
@@ -143,7 +144,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.portfolio { 
+.portfolio {  color: #2e2f42;
 }
 .portfolio-title {
   color: #2e2f42;
